@@ -1,0 +1,46 @@
+/* @override http://ericbenjaminjr.github.local/static/css/styles.css */
+
+body
+{
+	background: url(../images/bg.jpg) repeat;
+}
+
+.ebjsig
+{
+	background: url(../images/ebsig.png) no-repeat center center;
+	width: 270px;
+	height: 42px;
+	margin: 0 auto;
+}
+
+div.extLinks
+{
+	text-align: center;
+	margin-top: 30px;
+}
+
+div.extLinks a
+{
+	margin-top: 20px;
+	border: none;
+	display: block;
+}
+
+.dim
+{
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	filter: alpha(opacity=60);
+	-moz-opacity: 0.6;
+	-khtml-opacity: 0.6;
+	opacity: 0.6;
+}
+
+.centered
+{
+	width: 300px;
+	height:200px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin:-200px 0 0 -150px;
+}
